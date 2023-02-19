@@ -1,0 +1,179 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\User\\Documentos\\Stride Projects\\ProyectileSampler\\ProyectileSampler.Windows\\ProyectileSampler.Windows.csproj": {}
+  },
+  "projects": {
+    "E:\\User\\Documentos\\Stride Projects\\ProyectileSampler\\ProyectileSampler.Windows\\ProyectileSampler.Windows.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\User\\Documentos\\Stride Projects\\ProyectileSampler\\ProyectileSampler.Windows\\ProyectileSampler.Windows.csproj",
+        "projectName": "ProyectileSampler.Windows",
+        "projectPath": "E:\\User\\Documentos\\Stride Projects\\ProyectileSampler\\ProyectileSampler.Windows\\ProyectileSampler.Windows.csproj",
+        "packagesPath": "C:\\Users\\Jose Johnen\\.nuget\\packages\\",
+        "outputPath": "E:\\User\\Documentos\\Stride Projects\\ProyectileSampler\\ProyectileSampler.Windows\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jose Johnen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "D:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "E:\\User\\Documentos\\Stride Projects\\ProyectileSampler\\ProyectileSampler\\ProyectileSampler.csproj": {
+                "projectPath": "E:\\User\\Documentos\\Stride Projects\\ProyectileSampler\\ProyectileSampler\\ProyectileSampler.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[6.0.13, 6.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[6.0.13, 6.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[6.0.13, 6.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\User\\Documentos\\Stride Projects\\ProyectileSampler\\ProyectileSampler\\ProyectileSampler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\User\\Documentos\\Stride Projects\\ProyectileSampler\\ProyectileSampler\\ProyectileSampler.csproj",
+        "projectName": "ProyectileSampler",
+        "projectPath": "E:\\User\\Documentos\\Stride Projects\\ProyectileSampler\\ProyectileSampler\\ProyectileSampler.csproj",
+        "packagesPath": "C:\\Users\\Jose Johnen\\.nuget\\packages\\",
+        "outputPath": "E:\\User\\Documentos\\Stride Projects\\ProyectileSampler\\ProyectileSampler\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jose Johnen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "D:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Stride.Core.Assets.CompilerApp": {
+              "include": "Build, BuildTransitive",
+              "target": "Package",
+              "version": "[4.1.0.1734, )"
+            },
+            "Stride.Engine": {
+              "target": "Package",
+              "version": "[4.1.0.1734, )"
+            },
+            "Stride.Navigation": {
+              "target": "Package",
+              "version": "[4.1.0.1734, )"
+            },
+            "Stride.Particles": {
+              "target": "Package",
+              "version": "[4.1.0.1734, )"
+            },
+            "Stride.Physics": {
+              "target": "Package",
+              "version": "[4.1.0.1734, )"
+            },
+            "Stride.UI": {
+              "target": "Package",
+              "version": "[4.1.0.1734, )"
+            },
+            "Stride.Video": {
+              "target": "Package",
+              "version": "[4.1.0.1734, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

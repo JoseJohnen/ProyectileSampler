@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 10b656d4-2cd9-4c22-9a30-087c1949f825
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 784b38f5-16e4-4596-86ce-2ddaca30836b
+    Parts:
+        -   Entity:
+                Id: 784b38f5-16e4-4596-86ce-2ddaca30836b
+                Name: DummyBullet
+                Components:
+                    9e526487c31e7916941c554ab7b74b76: !TransformComponent
+                        Id: 27c17bd6-32ff-4372-8885-f06d77d3ba4f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2737ccb597d02136f0798fceff264a8a: !ModelComponent
+                        Id: 10274d29-453c-4fa4-aa68-74ffee18ffcf
+                        Model: 95b434b9-e85a-4523-b441-ca5cec8ed33b:Capsule
+                        Materials: {}

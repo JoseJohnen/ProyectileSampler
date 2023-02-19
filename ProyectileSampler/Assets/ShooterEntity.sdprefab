@@ -1,0 +1,26 @@
+!PrefabAsset
+Id: cf16303b-f26e-4beb-87b6-c9962f44730f
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 25582a15-24d5-4280-aca0-cc388ab7f9d4
+    Parts:
+        -   Entity:
+                Id: 25582a15-24d5-4280-aca0-cc388ab7f9d4
+                Name: ShooterEntity
+                Components:
+                    43216d3001e12d28238b782f18c23333: !TransformComponent
+                        Id: dbfbd93d-4a33-40d4-91d8-e5a4e3e43b89
+                        Position: {X: 0.0, Y: 0.5, Z: 3.865829}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fe199874108cc2654ccdfaedea9bf3db: !ModelComponent
+                        Id: 5e13e70c-7d11-4eb4-9468-7c15a577e2ae
+                        Model: 8b9e4443-508d-4f78-b6eb-332d5966d976:Sphere
+                        Materials:
+                            22758ed1d0c1b8cb76ecbd6ab52383db~0: 248472f7-cd2d-4139-a988-5946a7f3c8e4:Sphere Material
+                    e39f9f67fdc2a6b0b514aaa3acff4ddb: !ProyectileSampler.SideAllower,ProyectileSampler
+                        Id: d4df6c44-88e9-4a97-ac51-7c7bd486b888
+                        missile: 10b656d4-2cd9-4c22-9a30-087c1949f825:DummyBullet
