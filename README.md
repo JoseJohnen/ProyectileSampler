@@ -42,6 +42,9 @@ O: Move the shooter entity to the left
 P: Move the shooter entity to the right
 Right Click: Shot
 
+The BasicCameraController have for his use the classic AWSD, the arrow keys and Q and E to go up and down together with the left click for some uses, recomend read that file to have the complete idea of the rest of the keys.
+
+Docs: https://doc.stride3d.net/latest/en/manual/graphics/cameras/index.html
 
 <b>Disclaimer</b>
 
